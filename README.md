@@ -1,3 +1,22 @@
+# Civic.Asgardia website
+
+Non-official C.A website to manage trainees.
+
+## Getting started
+
+1. `npm i`
+1. `npm start` - Open new browser tab at localhost:3000
+
+
+## Deploy into production
+
+1. `npm i -g pushstate-server` (optional - only once)
+1. `npm run build` - Generate `build` folder with production-optimized files.
+1. `pushstate-server build` - Serves the build folder. Go to localhost:9000 to see the website.
+
+---
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
